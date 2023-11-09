@@ -302,6 +302,8 @@ Examples:
 
      $ concurrently -P "npm:dev-* -- {@}" -- --watch --noEmit
 
+Add example on how to use it 
+
  - Passthrough all additional arguments combined via '{*}' placeholder
 
      $ concurrently -P "npm:dev-* -- {*}" -- --watch --noEmit
